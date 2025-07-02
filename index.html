@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PT. Munggaran Jaya Utama</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="main.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">PT. MJU</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#about">Tentang Kami</a></li>
+          <li><a href="#services">Layanan</a></li>
+          <li><a href="#projects">Proyek</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>PT. Munggaran Jaya Utama</h1>
+      <p>Mitra Terpercaya di Bidang Telekomunikasi & Infrastruktur</p>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>Tentang Kami</h2>
+      <p>PT. MJU telah berdiri sejak tahun 2000 sebagai penyedia layanan infrastruktur, khususnya di sektor telekomunikasi, jaringan, dan energi.</p>
+    </div>
+  </section>
+
+  <section id="services" class="section gray">
+    <div class="container">
+      <h2>Layanan Kami</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Fiber Optik</h3>
+          <p>Pembangunan dan instalasi jaringan fiber optik dengan standar internasional.</p>
+        </div>
+        <div class="card">
+          <h3>Menara Telekomunikasi</h3>
+          <p>Desain dan pembangunan tower BTS serta pemeliharaan berkelanjutan.</p>
+        </div>
+        <div class="card">
+          <h3>Jaringan Energi</h3>
+          <p>Sistem backup power, panel surya, dan kelistrikan pendukung telekomunikasi.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section id="projects" class="section">
+  <div class="container">
+    <h2>Galeri Proyek</h2>
+
+    <!-- Filter Buttons -->
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-filter="all">Semua</button>
+      <button class="filter-btn" data-filter="fiber">Fiber Optik</button>
+      <button class="filter-btn" data-filter="tower">Menara</button>
+      <button class="filter-btn" data-filter="network">Jaringan</button>
+    </div>
+
+    <!-- Galeri -->
+    <div class="gallery-grid">
+  <div class="gallery-item" data-category="fiber" data-title="Proyek FO Jakarta" data-description="Instalasi backbone fiber optik di area Jabodetabek.">
+    <img src="https://source.unsplash.com/400x250/?fiber" alt="Fiber 1">
+  </div>
+  <div class="gallery-item" data-category="fiber" data-title="Proyek FO Surabaya" data-description="Pemasangan fiber optik untuk kampus dan area komersial.">
+    <img src="https://source.unsplash.com/400x250/?fiber-optic" alt="Fiber 2">
+  </div>
+  <div class="gallery-item" data-category="tower" data-title="Menara BTS Bandung" data-description="Pembangunan menara BTS 40 meter di Bandung Barat.">
+    <img src="https://source.unsplash.com/400x250/?tower" alt="Tower 1">
+  </div>
+  <div class="gallery-item" data-category="tower" data-title="Tower Komunikasi Garut" data-description="Menara komunikasi untuk wilayah pegunungan.">
+    <img src="https://source.unsplash.com/400x250/?bts" alt="Tower 2">
+  </div>
+  <div class="gallery-item" data-category="network" data-title="Integrasi Jaringan PLN" data-description="Integrasi SCADA dan jaringan komunikasi data dengan substation.">
+    <img src="https://source.unsplash.com/400x250/?network" alt="Jaringan 1">
+  </div>
+  <div class="gallery-item" data-category="network" data-title="Sistem Monitoring Kota" data-description="Pemasangan sistem komunikasi untuk smart city dan CCTV kota.">
+    <img src="https://source.unsplash.com/400x250/?infrastructure" alt="Jaringan 2">
+  </div>
+</div>
+
+
+  <!-- Lightbox -->
+<div id="lightbox" class="lightbox">
+  <span class="close">&times;</span>
+  <img class="lightbox-content" id="lightbox-img">
+  <div class="lightbox-text">
+    <h3 id="lightbox-title">Judul Proyek</h3>
+    <p id="lightbox-description">Deskripsi proyek akan ditampilkan di sini.</p>
+  </div>
+  <span class="lightbox-prev">&#10094;</span>
+  <span class="lightbox-next">&#10095;</span>
+</div>
+
+</section>
+
+
+
+  <section id="contact" class="section gray">
+    <div class="container">
+      <h2>Hubungi Kami</h2>
+      <p>Email: info@mjuasia.co.id</p>
+      <p>Telepon: +62 21 1234 5678</p>
+      <p>Alamat: Jl. Telekomunikasi No.123, Jakarta, Indonesia</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 PT. Munggaran Jaya Utama. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
